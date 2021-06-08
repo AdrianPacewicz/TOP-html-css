@@ -1,0 +1,74 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Segoe UI', Verdana;
+    font-size: 1.8rem;
+    text-align: center;
+    background-color: black;
+}
+
+#main {
+    margin: 40px 40px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: darkslategrey;
+    color: whitesmoke;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 3rem;
+    margin: 2rem auto 2rem auto;
+}
+
+a {
+    color: steelblue;
+}
+
+a:visited {
+    color: steelblue;
+}
+
+ul {
+    margin: 2rem auto 2rem auto;
+    max-width: 70rem;
+    text-align: left;
+    line-height: 1.5;
+}
+
+p {
+    margin: 2rem auto 2rem auto;
+    max-width: 100rem;
+    text-align: left;
+    line-height: 1.5;
+}
+
+img {
+    max-width: 40%;
+    max-height: 50rem;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+#title {
+    margin: auto auto 2rem auto;
+    max-width: 100%;
+    background-color: darkcyan;
+    border-radius: 10px;
+}
+
+#img-caption {
+    font-size: 1.6rem;
+}
+
+@media (max-width: 560px) {
+    img {
+        max-width: 80%;
+    }
+}

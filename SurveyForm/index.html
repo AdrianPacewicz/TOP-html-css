@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="Es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="main">
+    <div id="marco-form">
+      <h1 id="title">Información de la visita</h1>
+      <p id="description">Por favor rellene el siguiente formulario.</p>
+      <form id="survey-form">
+        <div>
+          <label for="name" id="name-label">Nombre:</label>
+          <input type="text" name="name" id="name" class="form-control"  placeholder="Ingrese su nombre." required>
+        </div>
+        <div>
+          <label for="email" id="email-label">e-Mail:</label>
+          <input type="email" name="email" id="email"class="form-control"  placeholder="Ingrese su e-mail." required>
+        </div>
+        <div>
+          <label for="dropdown" id="estudios-label">Estudios:</label>
+          <select name="dropdown" id="dropdown" class="form-control">
+            <option value="opcion1">Ninguno</option>
+            <option value="opcion2">Primario</option>
+            <option value="opcion3">Secundario</option>
+            <option value="opcion4">Universitario</option>
+          </select>
+        </div>
+        <div>
+          <p id="genero">Genero:</p>
+          <label><input type="radio" name="genero" id="generoM" value="M">Masculino</label>
+          <label><input type="radio" name="genero" id="generoF" value="F">Femenino</label>
+        </div>
+        <div>
+          <p id="mayor">Mayor de edad?:</p>
+          <label><input type="radio" name="mayor" id="mayorSi" value="S">Si</label>
+          <label><input type="radio" name="mayor" id="mayorNo" value="N">No</label>
+        </div>
+        <div>
+          <p id="intereses">Seleccione sus intereses:</p>
+          <label><input type="checkbox" name="intereses" id="deportes" value="deportes">Deportes</label>
+          <label><input type="checkbox" name="intereses" id="videojuegos" value="videojuegos">Videojuegos</label>
+          <label><input type="checkbox" name="intereses" id="musica" value="musica">Música</label>
+          <label><input type="checkbox" name="intereses" id="series" value="series">Series</label>
+          <label><input type="checkbox" name="intereses" id="comida" value="comida">Comida</label>
+        </div>
+        <div>
+          <p id="comentarios">Comentarios adicionales:</p>
+          <textarea name="textarea" id="textarea" class="form-control" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+          <label for="number" id="number-label">Del 1 al 10, ¿Qué tanto recomendaría esta web?:</label>
+          <input type="number" name="number" id="number"class="form-control"  min="0" max="10" placeholder="Número de 0 a 10.">
+        </div>
+        <div>
+          <button type="submit" id="submit" class="form-control">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </main>
+</body>
