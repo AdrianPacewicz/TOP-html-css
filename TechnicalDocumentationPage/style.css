@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-size: 10px;
+  background-color: Gainsboro;
+}
+
+body {
+  font-family: 'Segoe UI', Verdana;
+  font-size: 1.6rem;
+  width: 100%;
+}
+
+#navbar {
+  position: fixed;
+  width: 24rem;
+  margin-left: 1rem;
+  height: 97%;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+#main-doc {
+  margin-left: 26rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: calc(100% - 27rem);
+  background-color: white;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+p {
+  margin: 1rem;
+}
+
+header {
+  margin: 1rem;
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+code {
+  display: block;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: gainsboro;
+}
+
+ul {
+  margin: 1rem;
+  margin-left: 2rem;
+}
+
+li {
+  margin: 1rem;
+}
+
+.nav-link {
+  display: block;
+  text-decoration: none;
+  padding: 1rem;
+  color: black;
+  cursor: pointer;
+}
+
+#navbar li {
+  list-style: none;
+  border-bottom: 1px solid;
+  border-color: gainsboro;
+  margin: 0px;
+  font-size: 1.8rem;
+}
+
+nav header {
+  text-align: center;
+  padding: 2rem;
+}
+
+@media (max-width: 600px) {
+
+  #navbar {
+    position: relative;
+    width: calc(100% - 2rem);
+    height: auto;
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  #main-doc {
+    margin: 1rem;
+    width: calc(100% - 2rem);
+    height: auto;
+  }
+}
+
