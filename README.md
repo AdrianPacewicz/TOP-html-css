@@ -1,2 +1,2 @@
-# TheOdinProject-HTML/CSS
- Curso web - Introducción HTML / CSS + Ejercicios
+# TheOdinProject - HTML/CSS
+HTML/CSS introduction + exercises
